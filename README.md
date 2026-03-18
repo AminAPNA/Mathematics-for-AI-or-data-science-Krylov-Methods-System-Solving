@@ -4,24 +4,24 @@ This repository contains material for the first session of the **Mathematics for
 
 ---
 
-## 🚀 Why Numerical Linear Algebra Matters
+## Why Numerical Linear Algebra Matters
 
 At the core of modern science, engineering, and artificial intelligence lies a fundamental computational task:
 
 > **Solve linear systems of the form:** `Ax = b`
 
-No matter how complex a model is—whether in machine learning, optimization, or scientific computing—it almost always reduces (explicitly or implicitly) to solving such systems.
+No matter how complex a model is, whether in machine learning, optimization, or scientific computing, it almost always reduces (explicitly or implicitly) to solving such systems either linear or nonlinear.
 
 ### Key reasons this field is essential:
 
-- **Scalability** — real-world problems involve millions or billions of variables  
-- **Efficiency** — direct methods quickly become too expensive  
-- **Stability** — numerical errors must be controlled  
-- **Structure awareness** — matrices are often sparse or structured  
+- **Scalability** , real-world problems involve millions or billions of variables  
+- **Efficiency** , direct methods quickly become too expensive  
+- **Stability** , numerical errors must be controlled  
+- **Structure awareness** , matrices are often sparse or structured  
 
 ---
 
-## 🔁 From Problems to Linear Systems
+##  From Problems to Linear Systems
 
 Many important tasks reduce to linear systems:
 
@@ -42,7 +42,7 @@ Many important tasks reduce to linear systems:
 
 ---
 
-## ⚡ Why Krylov Subspace Methods?
+##  Why Krylov Subspace Methods?
 
 For large-scale problems, **iterative methods** are preferred over direct solvers.
 
@@ -58,7 +58,7 @@ Instead of solving the full system, they:
 
 ---
 
-## 🔍 Algorithms Covered
+##  Algorithms Covered
 
 ### Arnoldi Algorithm
 - Builds an orthonormal basis of the Krylov subspace  
@@ -82,7 +82,7 @@ Instead of solving the full system, they:
 
 ---
 
-## 🧠 Relevance to AI & Data Science
+##  Relevance to AI & Data Science
 
 Linear algebra is at the heart of modern AI:
 
@@ -102,33 +102,7 @@ Linear algebra is at the heart of modern AI:
 
 ---
 
-## 📈 Direct vs Iterative Methods
-
-### Direct Methods
-- O(n³) complexity  
-- Destroy sparsity  
-- Do not scale well  
-
-### Krylov Methods
-- Use matrix-vector products (O(n) or O(nnz))  
-- Preserve sparsity  
-- Scale to very large systems  
-- Allow early stopping  
-
----
-
-## ⚠️ Numerical Challenges
-
-Krylov methods come with important numerical issues:
-
-- Rounding errors → loss of orthogonality / biorthogonality  
-- Breakdown → algorithm may fail to proceed  
-- Conditioning → affects convergence  
-- Preconditioning → often necessary  
-
----
-
-## 🧩 Big Picture
+##  Big Picture
 
 > Most problems in AI and data science reduce to:
 >
@@ -142,32 +116,16 @@ Krylov methods provide:
 
 ---
 
-## 📂 Repository Contents
+##  Repository Contents
 
 - Implementations of Arnoldi and Lanczos  
 - Applications to linear system solving  
 - Examples and experiments  
-- Extensions (GMRES, Conjugate Gradient)  
+- Extensions (GMRES, MINRES, Conjugate Gradient)  
 
 ---
-
-## 🎯 Learning Goals
-
-- Understand the role of linear systems in AI  
-- Learn how Krylov subspaces are constructed  
-- Implement Arnoldi and Lanczos methods  
-- Understand stability vs efficiency trade-offs  
-
----
-
-## 📌 Final Takeaway
 
 Numerical linear algebra is the **computational backbone of AI**.
 
-Krylov methods make it possible to:
-
-- Solve massive problems efficiently  
-- Work with real-world large-scale data  
-- Turn mathematical models into practical algorithms  
 
 ---
