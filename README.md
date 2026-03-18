@@ -38,7 +38,7 @@ Many important tasks reduce to linear systems:
 - PDE discretization → large sparse systems  
 - Simulations rely on repeated system solves  
 
-👉 **Conclusion:** Efficient linear system solving is foundational.
+**Conclusion:** Efficient linear system solving is foundational.
 
 ---
 
