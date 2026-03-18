@@ -1,10 +1,10 @@
-# 📘 Mathematics for AI — Krylov Methods & System Solving
+# 📘 Mathematics for AI (data science), Krylov Methods & System Solving
 
 This repository contains material for the first session of the **Mathematics for AI** course, focusing on **numerical linear algebra** and, in particular, **Krylov subspace methods** such as the Arnoldi and Lanczos algorithms.
 
 ---
 
-## 🚀 Why Numerical Linear Algebra Matters
+##  Why Numerical Linear Algebra Matters
 
 At the core of modern science, engineering, and artificial intelligence lies a fundamental computational task:
 
