@@ -129,3 +129,5 @@ Numerical linear algebra is the **computational backbone of AI**.
 
 
 ---
+
+Some **real-life examples** are provided in this [PDF document](PUT_YOUR_PDF_LINK_HERE), and the corresponding **MATLAB codes** are available [here](PUT_YOUR_MATLAB_LINK_HERE).
