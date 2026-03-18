@@ -130,4 +130,4 @@ Numerical linear algebra is the **computational backbone of AI**.
 
 ---
 
-Some **real-life examples** are provided in this [PDF document](https://github.com/AminAPNA/Mathematics-for-AI-or-data-science-Krylov-Methods-System-Solving/blob/main/Example_Projects.pdf), and the corresponding **MATLAB codes** are available [here]([[PUT_YOUR_MATLAB_LINK_HERE](https://github.com/AminAPNA/Mathematics-for-AI-or-data-science-Krylov-Methods-System-Solving/tree/main/matlab_codes)]).
+Some **real-life examples** are provided in this [PDF document](https://github.com/AminAPNA/Mathematics-for-AI-or-data-science-Krylov-Methods-System-Solving/blob/main/Example_Projects.pdf), and the corresponding **MATLAB codes** are available [here](https://github.com/AminAPNA/Mathematics-for-AI-or-data-science-Krylov-Methods-System-Solving/tree/main/matlab_codes).
